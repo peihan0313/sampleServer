@@ -2,3 +2,4 @@ language: minimal
 
 before_install:
   - echo hello travis
+  - echo $TRAVIS_BRANCH
