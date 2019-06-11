@@ -4,6 +4,7 @@ before_install:
   - echo hello travis
   - echo $TRAVIS_BRANCH
   - pip install --user awscli
+  - aws --version
 
 install:
   - aws --version
